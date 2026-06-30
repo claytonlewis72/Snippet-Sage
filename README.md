@@ -34,7 +34,7 @@ Built with **Python (FastAPI)** backend and a **Next.js (React)** web frontend
 ### 1. Backend (Python and FastAPI)
 ```
 cd backend
-pip install fastapi uvicorn
+pip install -r requirements.txt # or: pip install fastapi uvicorn
 uvicorn server:app --reload
 ```
 API runs at **http://localhost:8000**.
